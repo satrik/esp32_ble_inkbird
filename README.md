@@ -9,5 +9,6 @@ I've also included the ESPmDNS library to reach the esp via "inkbird.local" insi
 
 # credits
 thanks to the following projects, I'm sure you will find your code inside mine :D 
+
 https://github.com/Nigho/ibbq-gateway
 https://github.com/dereulenspiegel/ibbq-gateway
