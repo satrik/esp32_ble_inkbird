@@ -304,7 +304,7 @@ const char* htmlIndex = R"=====(
       }
 
       function refreshLabel(elm) {
-        document.querySelector('label[for=\''+elm.id+'\']').innerText = elm.value + '°';
+        document.querySelector('label[for=\''+elm.id+'\']').innerText = elm.value + '\u00B0';
       }
 
       function createElements(numberOfProbes) {
