@@ -13,7 +13,7 @@ With this project you can connect any (?) inkbird bluetooth BBQ thermometer, to 
 - you can [configure](#anchor_inkbird_setting) custom names, threshold temperatures with colors and [icons](#anchor_inkbird_icons) for each probe 
     - the configuration will be stored in the local storage of your clients webbrowser. so you can use different configurations on different clients
 - default, the ESP only connects to the inkbird if you open the website and disconnects if you close it. This saves battery of the inkbird (at least this is my assumption and first tests confirm this). If you 
-- while searching and connecting to the inkbird, the website shows a [loading animation](#anchor_inkbird_loading) and if there is any error, the website also shows an [error message](anchor_inkbird_error). 
+- while searching and connecting to the inkbird, the website shows a [loading animation](#anchor_inkbird_loading) and if there is any error, the website also shows an [error message](#anchor_inkbird_error). 
 - the webserver path `/data` provides the probe(s) and battery values in JSON fomat
 
 ---
@@ -42,38 +42,38 @@ With this project you can connect any (?) inkbird bluetooth BBQ thermometer, to 
 
 - start/home page
 
-<center>
+<p align="center">
     <a name="anchor_inkbird_home"></a>
     <img src="img/inkbird_home.png" width="300">
-</center>
+</p>
 
 - settings page
 
-<center>
+<p align="center">
     <a name="anchor_inkbird_setting"></a>
     <img src="img/inkbird_setting.png" width="300">
-</center>
+</p>
 
 - selectable icons 
 
-<center>
+<p align="center">
     <a name="anchor_inkbird_icons"></a>
     <img src="img/inkbird_icons.png" width="50">
-</center>
+</p>
 
 - loading animation
 
-<center>
+<p align="center">
     <a name="anchor_inkbird_loading"></a>
     <img src="img/inkbird_loading.gif" width="300">
-</center>
+</p>
 
 - error message
 
-<center>
+<p align="center">
     <a name="anchor_inkbird_error"></a>
     <img src="img/inkbird_error.png" width="300">
-</center>
+</p>
 
 ---
 
