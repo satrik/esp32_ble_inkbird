@@ -12,7 +12,7 @@ With this project you can connect any (?) inkbird bluetooth BBQ thermometer, to 
 - shows the battery level on the website
 - you can [configure](#anchor_inkbird_setting) custom names, threshold temperatures with colors and [icons](#anchor_inkbird_icons) for each probe 
     - the configuration will be stored in the local storage of your clients webbrowser. so you can use different configurations on different clients
-- default, the ESP only connects to the inkbird if you open the website and disconnects if you close it. This saves battery of the inkbird (at least this is my assumption and first tests confirm this). If you 
+- by default, the ESP only connects to the inkbird if you open the website and disconnects if you close it. This saves battery of the inkbird (at least this is my assumption and first tests confirm this). Can be disabled in the settings. 
 - while searching and connecting to the inkbird, the website shows a [loading animation](#anchor_inkbird_loading) and if there is any error, the website also shows an [error message](#anchor_inkbird_error). 
 - the webserver path `/data` provides the probe(s) and battery values in JSON fomat
 
