@@ -2,7 +2,7 @@
 
 ## description
 
-With this project you can connect any (?) inkbird bluetooth BBQ thermometer, to an ESP32. The ESP than provides a webserver with some nice functions.
+With this project you can connect any (?) inkbird IBT bluetooth BBQ thermometer, to an ESP32. The ESP than provides a webserver with some nice functions.
 
 ---
 
